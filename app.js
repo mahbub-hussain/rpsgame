@@ -1,12 +1,13 @@
 $(document).ready(function(){
    $("#starterpage").show()
    $("#game-wrap").hide()
+   
    $("#letsplay").click(function(){
-      $("#starterpage").hide()
-     $("#game-wrap").show();
-     $(".stay-content").show();
+      $("#starterpage ,.player-content").hide()
+     $("#game-wrap ,.stay-content").show();
+    
      $(".ranc").html("<img src='img/com.png'>")
-     $(".player-content").hide();
+    
      //reset everything;
      reset()
   })
@@ -41,10 +42,10 @@ $("button").click(function(){
                   $(".demo").html("Paper Wraps Rock")
                   } 
                   if(hum === 8 && com === 10){
-                  $(".demo").html("Rock Smashes seissor")
+                  $(".demo").html("Rock Smashes Seissor")
                   }
                   if(hum === 10 && com === 9){
-                     $(".demo").html("seissor cuts paper")
+                     $(".demo").html("Seissor Cuts Paper")
                   }
                   humcount++
                   $(".humcount").html(humcount)
@@ -54,10 +55,10 @@ $("button").click(function(){
                   $(".demo").html("Paper Wraps Rock")
                   } 
                   if(hum === 10 && com === 8){
-                  $(".demo").html("Rock smashes seissor")
+                  $(".demo").html("Rock Smashes Seissor")
                   }
                   if(hum === 9 && com === 10){
-                     $(".demo").html("seissor cuts paper")
+                     $(".demo").html("Seissor Cuts Paper")
                   }
                   comcount++
                   $(".comcount").html(comcount)
