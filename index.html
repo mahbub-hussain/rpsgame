@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <script src="jquery-3.3.1.js"></script>
+   <script src="app.js"></script>
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div id="page-wrapper">
+      <div id="starterpage">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12 mt-3">
+                     <div id="banner-wrap">
+                           <div class="banner">
+                                 <span class="left">humans</span>
+                                 <span class="vsicon"><img src="img/VS.png" alt=""></span>
+                                 <span class="right">computer</span>
+                           </div>
+                     </div>
+               </div>
+         
+               <div class="col-12 mt-5">
+                  <div class="row">
+                        <div class=" col-4 p-0">
+                           <div class="strimg">
+                              <img src="img/hum.png" alt="">
+                           </div>
+                     </div>
+                     <div class=" col-4 p-0">
+                           <div class=" gamelogo">
+                              <img class="" src="img/rps.png" alt="">
+                           </div>
+                     </div>
+                     <div class="col-4 p-0">
+                           <div class="strimg">
+                              <img src="img/com.png" alt="">
+                           </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 text-center mt-5">
+                  <input id="letsplay" class="btn btn-danger" type="button" value="Lets Play"/>
+               </div>
+                  
+            </div>
+         </div>
+      </div>
+
+      <div id="game-wrap">
+         <div class="container-fluid">
+            <div class="row">
+                  <div class="col-12">
+                        <div id="banner-wrap">
+                              <div class="banner">
+                                    <span class="left">human</span>
+                                    <span class="vsicon"><img src="img/VS.png" alt=""></span>
+                                    <span class="right">computer</span>
+                           </div>
+                        </div>
+                  </div>
+                  <div class="col-12 result-wrap">
+                     <div class="demo"></div>
+               </div>
+               <!--player-->
+                  <div class="col-12 mt-5">
+                     <div class="row middle-col">
+                           <div class="col-6">
+                        <ul>
+                        <li>
+                           <div class="player-content">
+                           <h5>player</h5>
+                           <img class="rock" src="rock.png">
+                           <h5>Score : <span class="humcount"></span></h5>
+                           </div>
+                        </li>
+                        
+                        <li>
+                           <div class="player-content">
+                           <h5>player</h5>
+                           <img class="paper" src="paper.png">
+                           <h5>Score : <span class="humcount"></span></h5>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="player-content">
+                              <h5>player</h5>
+                              <img class="scissors"  src="scisso.png">
+                           <h5>Score : <span class="humcount"></span></h5>
+                           </div>
+                        </li>
+                        
+                        <li>
+                              <div class="stay-content">
+                                 <h5>player</h5>
+                                 <img src="img/hum.png">
+                              <h5>Score : <span class="humcount"></span></h5>
+                              </div>
+                           </li>
+                        
+                  </ul>
+                  
+               
+                           </div> 
+                           <!--computer-->
+                           <div class="col-6 text-center">
+                                    <div class="comp-content">
+                                       <h5>Computer</h5>
+                                          <div class="ranc">
+                                             <img  src="img/com.png" alt="">
+                                          </div>
+                                       <h5>Score : <span class="comcount"></span></h5>
+                                    </div>
+                           </div> 
+                     </div>
+                  </div>
+            
+               <div class="col-12 mt-3">
+                        <div id="select">
+                              <button id="rockhand" class="btn ">Rock</button>
+                              <button id="paperhand" class="btn btn-primary">Paper</button>
+                              <button id="scissorsha" class="btn btn-dark">Scissors</button>
+                        </div>
+               </div>
+            <div class="col-12 mt-4">
+               <div class="row">
+                     <div class="col-6 text-right">
+                        <input type="button" class="btn  reset btn-warning" value="Reset">
+                     </div>
+                     <div class="col-6">
+                        <input type="button" class="btn  exit btn-danger" value="Exit">
+                     </div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+</div>
+
+ 
+        
+</body>
+</html>
+
+
+
+
